@@ -1,0 +1,56 @@
+carros:
+  - marca: "Volkswagen"
+    modelo: "Gol"
+    ano: 2020
+    motor: 1.0
+    potencia: 84
+    combustivel: "Flex"
+    cores_disponiveis:
+      - "Branco"
+      - "Preto"
+      - "Prata"
+    opcionais:
+      ar_condicionado: true
+      direcao_hidraulica: true
+      vidros_eletricos: false
+
+  - marca: "Fiat"
+    modelo: "Uno"
+    ano: 2021
+    motor: 1.0
+    potencia: 75
+    combustivel: "Flex"
+    cores_disponiveis:
+      - "Vermelho"
+      - "Branco"
+      - "Azul"
+    opcionais:
+      ar_condicionado: false
+      direcao_hidraulica: true
+      vidros_eletricos: false
+
+  - marca: "Toyota"
+    modelo: "Corolla"
+    ano: 2022
+    motor: 2.0
+    potencia: 169
+    combustivel: "Flex"
+    cores_disponiveis:
+      - "Prata"
+      - "Preto"
+      - "Branco"
+      - "Azul"
+    opcionais:
+      ar_condicionado: true
+      direcao_hidraulica: true
+      vidros_eletricos: true
+      airbag: true
+      abs: true
+categorias:
+  hatch:
+    - "Volkswagen Gol"
+    - "Fiat Uno"
+  sedan:
+    - "Toyota Corolla"
+ultima_atualizacao: 2023-06-15
+versao: 1.0
